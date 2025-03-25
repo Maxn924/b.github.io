@@ -3,49 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Batman Themed Website</title>
+    <title>Gotham City - Batman</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #111;
+            background-color: #0c0c0c;
             color: #f1c40f;
             text-align: center;
         }
         header {
             background-color: #000;
-            color: #f1c40f;
             padding: 20px 0;
             border-bottom: 5px solid #f1c40f;
+        }
+        header h1 {
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
         }
         nav {
             margin: 20px 0;
         }
         nav a {
             text-decoration: none;
-            margin: 0 15px;
+            margin: 15px;
             color: #f1c40f;
-            font-size: 18px;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 8px 16px;
+            border: 2px solid #f1c40f;
+            border-radius: 5px;
+            transition: 0.3s;
         }
         nav a:hover {
-            color: #e74c3c;
+            background-color: #f1c40f;
+            color: #000;
         }
         main {
-            margin: 40px 0;
+            margin: 40px auto;
+            width: 80%;
         }
-        img {
-            width: 60%;
+        .batman-image {
+            width: 80%;
             max-width: 600px;
             border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 4px 15px rgba(255, 255, 0, 0.6);
             margin-top: 20px;
         }
         footer {
             background-color: #000;
-            color: #f1c40f;
-            padding: 10px 0;
+            padding: 10px;
             margin-top: 40px;
+            font-size: 14px;
         }
     </style>
 </head>
@@ -59,15 +70,15 @@
         <a href="contact.html">Contact</a>
     </nav>
     <main>
-        <h2>The Dark Knight Watches Over</h2>
-        <p>Batman stands as Gotham’s silent guardian, watching from the shadows.</p>
-        
-        <!-- Embedded Batman Image -->
-        <img src="https://upload.wikimedia.org/wikipedia/en/1/17/Batman-BenAffleck.jpg" alt="Batman overlooking Gotham">
+        <h2>The Dark Knight Rises</h2>
+        <p>In the heart of Gotham, the Bat-Signal shines bright, summoning the city’s greatest hero.</p>
+
+        <!-- Batman Image (Ensure 'image.jpg' is in 'images' folder) -->
+        <img src="images/image.jpg" alt="Batman in Gotham City" class="batman-image">
         
     </main>
     <footer>
-        <p>&copy; 2025 Gotham City Web Design</p>
+        <p>&copy; 2025 Gotham City | The Dark Knight Protects</p>
     </footer>
 </body>
 </html>
