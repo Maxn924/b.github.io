@@ -21,6 +21,7 @@
             <div class="hero-content">
                 <h2>Protecting Gotham, One Night at a Time</h2>
                 <p>Explore the world of Batman: the dark knight, the protector, the symbol of hope for Gotham City.</p>
+                <a href="about.html" class="cta-button">Learn More About Batman</a>
             </div>
         </section>
 
