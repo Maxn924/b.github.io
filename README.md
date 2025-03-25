@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>Welcome to My Website</h1>
+            <h1>My Website</h1>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
@@ -19,8 +19,11 @@
     </header>
     <main>
         <div class="container">
-            <img src="image.jpg" alt="Sample Image" class="main-image">
-            <p>Welcome to the homepage. Explore the sections using the navigation above.</p>
+            <section class="hero">
+                <h2>Welcome to My Website!</h2>
+                <p>Your journey to a better experience starts here. Explore more about us!</p>
+                <img src="image.jpg" alt="Sample Image" class="main-image">
+            </section>
         </div>
     </main>
     <footer>
