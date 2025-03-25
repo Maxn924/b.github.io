@@ -3,38 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Batman - Gotham's Protector</title>
+    <title>Home - My Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Batman's Domain</h1>
+        <h1>Welcome to My Website</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Batman</a>
-            <a href="contact.html">Contact Batman</a>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
-
     <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h2>Protecting Gotham, One Night at a Time</h2>
-                <p>Explore the world of Batman: the dark knight, the protector, the symbol of hope for Gotham City.</p>
-                <a href="about.html" class="cta-button">Learn More About Batman</a>
-            </div>
-        </section>
-
-        <section class="content">
-            <div class="image-container">
-                <img src="batman_logo.jpg" alt="Batman Logo" class="batman-logo">
-            </div>
-            <p>This is the home of Gotham's protector. Explore the navigation above to learn more about Batman and his legacy.</p>
-        </section>
+        <img src="image.jpg" alt="Sample Image" width="300">
+        <p>This is the homepage. Explore using the navigation above.</p>
     </main>
-
-    <footer>
-        <p>&copy; 2025 Batman's Domain. All rights reserved.</p>
-    </footer>
 </body>
 </html>
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <p>Learn more about us on this page.</p>
+    </main>
+</body>
+</html>
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <p>Reach out to us via email or phone.</p>
+    </main>
+</body>
+</html>
+
+<!-- styles.css -->
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
